@@ -1,0 +1,17 @@
+MISOFT V4 - SUBIR AL REPOSITORIO PRIVADO
+
+1. Abra https://github.com/LaboratorioSuelo/misoft-laboratorio-v4
+2. Si GitHub muestra Quick setup, pulse "uploading an existing file".
+3. DESCOMPRIMA este ZIP primero y arrastre los archivos y carpetas
+   a GitHub, incluyendo .streamlit/secrets.toml.example (opcional).
+   No suba el ZIP como unico archivo.
+4. Compruebe que app.py y requirements.txt quedaron en la raiz.
+5. Escriba "Inicializar MISOFT V4" y pulse Commit changes.
+6. En Streamlit Cloud seleccione repositorio, main y app.py.
+7. Configure en Streamlit > App settings > Secrets:
+   SUPABASE_URL = "https://...supabase.co"
+   SUPABASE_ANON_KEY = "..."
+   No utilice service_role.
+8. Antes de dar acceso a usuarios: comprobar RLS, funciones, pruebas entre sedes.
+
+El codigo no se ha desplegado ni verificado contra Supabase real.
